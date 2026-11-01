@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+}
+
+.lesson-markdown h1,
+.lesson-markdown h2,
+.lesson-markdown h3 {
+  font-weight: 600;
+  margin: 1rem 0 0.4rem;
+}
+
+.lesson-markdown p,
+.lesson-markdown ul,
+.lesson-markdown ol,
+.lesson-markdown pre,
+.lesson-markdown blockquote {
+  margin: 0.75rem 0;
+}
+
+.lesson-markdown ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+.lesson-markdown ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+
+.lesson-markdown a {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.lesson-markdown pre,
+.lesson-markdown code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+}
+
+.lesson-markdown pre {
+  background: #f4f4f5;
+  padding: 0.75rem;
+  overflow: auto;
+  border-radius: 0.375rem;
+}
+
+.lesson-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+}
+
+.lesson-markdown th,
+.lesson-markdown td {
+  border: 1px solid #d4d4d8;
+  padding: 0.35rem 0.5rem;
+  text-align: left;
+}
